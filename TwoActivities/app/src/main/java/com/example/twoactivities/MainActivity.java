@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(LOG_TAG, "--------");
+        Log.d(LOG_TAG, "onCreate");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mMessageEditText = findViewById(R.id.editText_main);
@@ -34,6 +36,47 @@ public class MainActivity extends AppCompatActivity {
         mReplyHeadTextView = findViewById(R.id.text_header_reply);
         mReplyTextView = findViewById(R.id.text_message_reply);
 
+        if(savedInstanceState != null) {
+            boolean isVisible = savedInstanceState.getBoolean("reply_visible");
+            if(isVisible){
+                mReplyHeadTextView.setVisibility(View.VISIBLE);
+                mReplyTextView.setText(savedInstanceState.getString("reply_text"));
+                mReplyTextView.setVisibility(View.VISIBLE);
+            }
+        }
+
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        Log.d(LOG_TAG, "onStart");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d(LOG_TAG, "onPause");
+    }
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d(LOG_TAG, "onResume");
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d(LOG_TAG, "onStop");
+    }
+    @Override
+    public void onDestroy() {
+        super.onStart();
+        Log.d(LOG_TAG, "onStart");
+    }
+    @Override
+    public void onRestart() {
+        super.onRestart();
+        Log.d(LOG_TAG, "onRestart");
     }
 
     public void launchSecondActivity(View view) {
@@ -51,6 +94,15 @@ public class MainActivity extends AppCompatActivity {
             mReplyHeadTextView.setVisibility(View.VISIBLE);
             mReplyTextView.setText(reply);
             mReplyTextView.setVisibility(View.VISIBLE);
+        }
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        if(mReplyHeadTextView.getVisibility() == View.VISIBLE){
+            outState.putBoolean("reply_visible", true);
+            outState.putString("reply_text", mReplyTextView.getText().toString());
         }
     }
 }
