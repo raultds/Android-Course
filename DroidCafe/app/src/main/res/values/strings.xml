@@ -17,10 +17,18 @@
     <string name="phone">Phone</string>
     <string name="phone_hint">Phone</string>
     <string name="note">Note</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_status">Status</string>
     <string-array name="labels_array">
         <item>Home</item>
         <item>Work</item>
         <item>Mobile</item>
         <item>Other</item>
     </string-array>
+    <string name="action_order_message">You selected Order.</string>
+    <string name="action_status_message">You selected Status.</string>
+    <string name="action_favorites_message">You selected Favorites.</string>
+    <string name="action_contact_message">You selected Contact.</string>
 </resources>
