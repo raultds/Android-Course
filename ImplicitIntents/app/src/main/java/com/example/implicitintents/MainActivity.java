@@ -70,5 +70,5 @@ public class MainActivity extends AppCompatActivity {
                 .setText(txt)
                 .startChooser();
 
-}   
+}
 }
