@@ -9,4 +9,18 @@
     <string name="ice_cream_order_message">You ordered an ice cream sandwich.</string>
     <string name="froyo_order_message">You ordered a FroYo.</string>
     <string name="change_dessert">Change dessert</string>
+    <string name="order">Order</string>
+    <string name="name">Name</string>
+    <string name="enter_name_hint">Enter your name</string>
+    <string name="address">address</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="phone">Phone</string>
+    <string name="phone_hint">Phone</string>
+    <string name="note">Note</string>
+    <string-array name="labels_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 </resources>

@@ -1,4 +1,4 @@
-#Tue Apr 07 09:59:43 CEST 2020
+#Tue Apr 07 11:50:15 CEST 2020
 base.0=/Users/rlrc/Desktop/android/training/Android-Training/DroidCafe/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
