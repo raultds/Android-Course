@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AsyncTask</string>
+    <string name="ready_start">I am ready to start work</string>
 </resources>
