@@ -4,7 +4,7 @@
             "outputFile": "/Users/rlrc/Desktop/android/training/Android-Training/DroidCafe/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
-                    "source": "/Users/rlrc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/03f1bba078de621712fcf823cccd5b83/res/values-el/values-el.xml",
+                    "source": "/Users/rlrc/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/res/values-el/values-el.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
