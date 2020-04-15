@@ -1,0 +1,4 @@
+#Wed Apr 15 10:02:19 CEST 2020
+base.0=/Users/rlrc/Desktop/android/training/android-training/WalkMyAndroid-Starter/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
